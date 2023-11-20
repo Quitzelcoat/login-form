@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <article class="left-side">
+        <div class="area-strech">
+            LOGO
+        </div>
+    </article>
+
+    <article id="form" class="right-side">
+
+        <div class="container">
+
+            <nav>
+
+                <p class="head-text">
+                    Believe me, every heart has its secret sorrows, <br>
+                    which the world knows not,
+                    and oftentimes we call a man cold, <br>
+                    when he is only sad. 
+                    <span>-' Henry Wadsworth '</span> <br>
+                </p>
+
+                <p class="title-text">
+                    Sign Up for an adventure!
+                </p>
+
+            </nav>
+        
+            <form action="">
+
+                <legend>What are You Waiting For!</legend>
+
+                <section>
+
+                    <div class="inputs">
+                        <div>
+                            <label for="first-name">First Name</label>
+                        </div>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+
+                    <div class="inputs">
+                        <div>
+                            <label for="last-name">Last Name</label>
+                        </div>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+
+                    <div class="inputs">
+                        <div>
+                            <label for="email">Email</label>
+                        </div>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+        
+                    <div class="inputs">
+                        <div>
+                            <label for="phone">Phone Number</label>
+                        </div>
+                        <input type="tel" id="phone" name="phone" maxlength="15" required>
+                    </div>
+
+                    <div class="inputs">
+                        <div>
+                            <label for="pass">Password</label>
+                        </div>
+                        <input type="password" id="pass" name="pass" minlength="8" required>
+                    </div>
+        
+                    <div class="inputs">
+                        <div>
+                            <label for="confirm-pass">Confirm Password</label>
+                        </div>
+                        <input type="password" id="confirm-pass" name="pass" minlength="8" required>
+                    </div>
+
+                </section>
+
+                <section class="btn">
+                    <button type="submit">
+                        Create Account
+                    </button>
+                </section>
+
+            </form>
+        
+            <div class="account-contain">
+                Already have an account?
+                <a href="#">
+                    Log in
+                </a>
+            </div>
+
+        </div>
+        
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>
